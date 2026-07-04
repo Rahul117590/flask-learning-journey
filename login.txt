@@ -1,0 +1,8 @@
+
+--------------- mini login page -----------------
+# simple logging page with the help of flask
+1. loging page
+2. accept username&password
+3. session store
+4. redirect welcome page
+5. logout
