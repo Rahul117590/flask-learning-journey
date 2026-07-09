@@ -1,0 +1,20 @@
+forms
+1-name
+2-POST
+3-make sure match
+
+---------------------------------------------------
+
+JINJA 2
+
+1-python values
+{{variable}}
+
+
+{{name}}
+
+<p>welcome {{name}}</p>
+
+
+2- conditionals
+{%if%}....{%endif %}

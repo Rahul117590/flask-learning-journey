@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1> Hello {{name}}</h1>
+    {% if is_topper %}
+    <p>you are a topper </p>
+    {% else %}
+    <p> you need to work hard</p>
+    {% endif %}
+    <h3>your subjects</h3>
+    <ul>
+        {% for subject in subjects %}
+        <li>{{subject}}</li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>
