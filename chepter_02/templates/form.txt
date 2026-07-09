@@ -1,0 +1,4 @@
+first generate the form 
+user 'name' attribute to creat your requierment
+use the 'post' method if you wanna sent the data to the server
+pass the submit in your data
